@@ -1,0 +1,105 @@
+[08/05/20, 16:30:24:593] info: 
+╔══════════════════════════════════════════════════════════════════════════════╗
+║      Slack 4.8.0, linux 5.7.12-arch1-1 on x64 at 08/05/20, 16:30:24:592      ║
+╚══════════════════════════════════════════════════════════════════════════════╝ 
+[08/05/20, 16:30:24:593] info: Configured logger via 
+{
+  "identifierOverride": "webapp-console",
+  "logLevel": "info",
+  "numberOfInstances": 2
+}
+[08/05/20, 16:30:24:593] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "linux",
+  "type": "browser",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.8.0",
+  "PACKAGE_MANIFEST.commit": "b075825",
+  "PACKAGE_MANIFEST.branch": "HEAD"
+}
+[08/05/20, 16:30:24:594] warn: (electron) crashReporter.start is deprecated in the renderer process. Call it from the main process instead. 
+[08/05/20, 16:30:24:594] info: Creating desktop interface object 
+[08/05/20, 16:30:24:594] info: Exposing context bridge 
+[08/05/20, 16:30:24:594] info: JQMIGRATE: Migrate is installed with logging active, version 3.0.0 
+[08/05/20, 16:30:24:594] warn: error getActiveModelOb found no ob 
+[08/05/20, 16:30:24:594] warn: TS.boot_data.channel_id: undefined 
+[08/05/20, 16:30:24:594] warn: TS.boot_data.im_id: undefined 
+[08/05/20, 16:30:24:594] warn: TS.boot_data.group_id: undefined 
+[08/05/20, 16:30:24:594] warn: error getActiveModelOb found no ob 
+[08/05/20, 16:30:24:594] warn: TS.boot_data.channel_id: undefined 
+[08/05/20, 16:30:24:595] warn: TS.boot_data.im_id: undefined 
+[08/05/20, 16:30:24:595] warn: TS.boot_data.group_id: undefined 
+[08/05/20, 16:30:24:595] info: [BOOT] booted! pri:0 version:1596609624 start_ms:1596645022823 (1582ms ago) 
+[08/05/20, 16:30:24:595] info: Exposing workspace desktop delegate for  {
+  "workspaceId": "T00000000"
+} 
+[08/05/20, 16:30:24:595] info: Setting global desktop delegate 
+[08/05/20, 16:30:24:595] warn: (T00000000) Clogger context could not be determined, using empty context 
+[08/05/20, 16:30:24:595] info: Store: UPDATE_SETTINGS {
+  "userTheme": "light"
+} 
+[08/05/20, 16:30:24:595] info: Store: UPDATE_SETTINGS {
+  "systemThemeSyncEnabled": false
+} 
+[08/05/20, 16:30:24:595] warn: TELEMETRY You tried to get a team-specific telemeter but didn’t provide enough context and are getting the generic telemeter instead which is likely not what you want. 
+[08/05/20, 16:30:24:595] info: [STORAGE] Special case: force-enabling LS compression for this session. 
+[08/05/20, 16:30:24:595] info: [STORAGE] migrating to compressed format 
+[08/05/20, 16:30:24:595] info: [STORAGE] migration to compressed format complete, 0 migrated 
+[08/05/20, 16:30:24:596] info: Network status check {
+  "elapsed_time_ms": 1009,
+  "navigator_online": true,
+  "api_test": "online"
+} 
+[08/05/20, 16:30:24:596] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 1,
+  "state": "loaded"
+} 
+[08/05/20, 16:30:24:596] info: Store: RECORD_PERFORMANCE_TIMING {
+  "phase": 2,
+  "interval": 2088
+} 
+[08/05/20, 16:30:24:596] info: Store: MAIN_WINDOW_SHOWN  
+[08/05/20, 16:30:24:596] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "fullScreen": false,
+    "maximized": false,
+    "bounds": {
+      "x": 448,
+      "y": 170,
+      "width": 1024,
+      "height": 768
+    }
+  }
+} 
+[08/05/20, 16:30:24:596] info: Store: CLEAR_NOTIFICATIONS  
+[08/05/20, 16:30:24:596] info: Store: SET_NETWORK_STATUS online 
+[08/05/20, 16:30:24:599] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 1,
+  "type": "app",
+  "history": "[REDACTED]"
+} 
+[08/05/20, 16:30:24:703] info: [INFO] running without a user 
+[08/05/20, 16:30:25:623] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "fullScreen": false,
+    "maximized": false,
+    "bounds": {
+      "x": 1012,
+      "y": 27,
+      "width": 881,
+      "height": 1026
+    }
+  }
+} 
+[08/05/20, 16:30:26:560] info: [FOCUS-EVENT] Window blurred 
+[08/05/20, 16:30:26:562] warn: TELEMETRY You tried to get a team-specific telemeter but didn’t provide enough context and are getting the generic telemeter instead which is likely not what you want. 
+[08/05/20, 16:30:26:562] info: [UNKNOWN-FETCH-MANAGER] (T00000000) requesting T00000000 (1) 
+[08/05/20, 16:30:26:565] warn: TRACES You tried to get a team-specific tracer but didn’t provide enough context and are getting the generic tracer instead which is likely not what you want. 
+[08/05/20, 16:30:26:570] info: [API-Q] (T00000000) 6413fa4e-1596645026.566 team.info called with reason: UnknownFetchManager 
+[08/05/20, 16:30:26:570] info: [API-Q] (T00000000) 6413fa4e-1596645026.566 team.info is ENQUEUED 
+[08/05/20, 16:30:26:571] info: [API-Q] (T00000000) 6413fa4e-1596645026.566 team.info is ACTIVE 
+[08/05/20, 16:30:26:602] info: [API-Q] (T00000000) 6413fa4e-1596645026.566 team.info is REJECTED: API not ok not_authed 
+[08/05/20, 16:30:26:611] info: [UNKNOWN-FETCH-MANAGER] (T00000000) received T00000000 (1) 
+[08/05/20, 16:30:26:613] warn: (T00000000) UnknownFetchManager requested 1 objects but received 0. Missing objects: T00000000 
+[08/05/20, 16:30:26:990] info: [FOCUS-EVENT] Window focused 

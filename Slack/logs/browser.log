@@ -1,0 +1,398 @@
+[08/05/20, 16:30:22:121] info: 
+╔══════════════════════════════════════════════════════════════════════════════╗
+║      Slack 4.8.0, linux 5.7.12-arch1-1 on x64 at 08/05/20, 16:30:22:120      ║
+╚══════════════════════════════════════════════════════════════════════════════╝ 
+[08/05/20, 16:30:22:122] info: Configured logger via 
+{
+  "logLevel": "info",
+  "numberOfInstances": 1
+}
+[08/05/20, 16:30:22:122] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "linux",
+  "type": "browser",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.8.0",
+  "PACKAGE_MANIFEST.commit": "b075825",
+  "PACKAGE_MANIFEST.branch": "HEAD"
+}
+[08/05/20, 16:30:22:197] info: Could not load previous electron version 
+[08/05/20, 16:30:22:270] info: getIsUpdateSupported: Updates are not supported 
+{
+  "version": "4.8.0",
+  "reasons": [
+    "using Linux"
+  ],
+  "distribution": "DDL",
+  "executable": "/usr/lib/slack"
+}
+[08/05/20, 16:30:22:272] info: Store: persist/PERSIST 
+[08/05/20, 16:30:22:274] info: Store: UPDATE_SETTINGS 
+{
+  "locale": "en-US"
+}
+[08/05/20, 16:30:22:276] info: Migrating from redux-persist@v4 
+[08/05/20, 16:30:22:277] info: Finished migrating state 
+{
+  "keys": [
+    "_persist"
+  ],
+  "version": 1
+}
+[08/05/20, 16:30:22:278] info: Store: persist/REHYDRATE 
+{
+  "_persist": "Persistence version: 1"
+}
+[08/05/20, 16:30:22:279] info: Store: RECORD_PERFORMANCE_TIMING 
+{
+  "phase": 0,
+  "interval": 11
+}
+[08/05/20, 16:30:22:280] info: Store: INITIALIZE 
+{
+  "resourcePath": "/usr/lib/slack/resources/app.asar"
+}
+[08/05/20, 16:30:22:284] info: persistUuid:: Generated uuid 
+{
+  "uuid": "5e4b9098-fe2d-551e-aa71-91a4c99dc213"
+}
+[08/05/20, 16:30:22:284] info: persistUuid:: Uuid persisted successfully 
+[08/05/20, 16:30:22:296] info: Starting crashReporter with options 
+{
+  "productName": "Slack",
+  "companyName": "Slack Technologies",
+  "uploadToServer": true,
+  "submitURL": "https://slack.com/apps/breakpad?instanceUid=5e4b9098-fe2d-551e-aa71-91a4c99dc213&version=4.8.0&channel=prod",
+  "extra": {
+    "channel": "prod",
+    "version": "4.8.0",
+    "instanceUid": "5e4b9098-fe2d-551e-aa71-91a4c99dc213",
+    "sessionId": "NWU0YjkwOTgtZmUyZC01NTFlLWFhNzEtOTFhNGM5OWRjMjEzXzE1OTY2NDUwMjIyODQ="
+  }
+}
+[08/05/20, 16:30:22:322] warn: Failed to install protocol handler for slack:// links 
+[08/05/20, 16:30:22:328] warn: Couldn't get Linux distro info from lsb_release, trying fallback to get Linux distro info 
+{
+  "error": {
+    "stack": "Error: Command failed: lsb_release -a --short\n/bin/sh: lsb_release: command not found\n\n    at ChildProcess.exithandler (child_process.js:304:12)\n    at ChildProcess.emit (events.js:223:5)\n    at ChildProcess.EventEmitter.emit (domain.js:475:20)\n    at maybeClose (internal/child_process.js:1021:16)\n    at Socket.<anonymous> (internal/child_process.js:430:11)\n    at Socket.emit (events.js:223:5)\n    at Socket.EventEmitter.emit (domain.js:475:20)\n    at Pipe.<anonymous> (net.js:664:12)",
+    "message": "Command failed: lsb_release -a --short\n/bin/sh: lsb_release: command not found\n",
+    "killed": false,
+    "code": 127,
+    "signal": null,
+    "cmd": "lsb_release -a --short",
+    "stdout": "",
+    "stderr": "/bin/sh: lsb_release: command not found\n"
+  },
+  "stackFrameString": "[{\"columnNumber\":12,\"lineNumber\":304,\"fileName\":\"child_process.js\",\"functionName\":\"ChildProcess.exithandler\",\"source\":\"    at ChildProcess.exithandler (child_process.js:304:12)\"},{\"columnNumber\":5,\"lineNumber\":223,\"fileName\":\"events.js\",\"functionName\":\"ChildProcess.emit\",\"source\":\"    at ChildProcess.emit (events.js:223:5)\"},{\"columnNumber\":20,\"lineNumber\":475,\"fileName\":\"domain.js\",\"functionName\":\"ChildProcess.EventEmitter.emit\",\"source\":\"    at ChildProcess.EventEmitter.emit (domain.js:475:20)\"},{\"columnNumber\":16,\"lineNumber\":1021,\"fileName\":\"internal/child_process.js\",\"functionName\":\"maybeClose\",\"source\":\"    at maybeClose (internal/child_process.js:1021:16)\"},{\"columnNumber\":11,\"lineNumber\":430,\"fileName\":\"internal/child_process.js\",\"functionName\":\"Socket.<anonymous>\",\"source\":\"    at Socket.<anonymous> (internal/child_process.js:430:11)\"},{\"columnNumber\":5,\"lineNumber\":223,\"fileName\":\"events.js\",\"functionName\":\"Socket.emit\",\"source\":\"    at Socket.emit (events.js:223:5)\"},{\"columnNumber\":20,\"lineNumber\":475,\"fileName\":\"domain.js\",\"functionName\":\"Socket.EventEmitter.emit\",\"source\":\"    at Socket.EventEmitter.emit (domain.js:475:20)\"},{\"columnNumber\":12,\"lineNumber\":664,\"fileName\":\"net.js\",\"functionName\":\"Pipe.<anonymous>\",\"source\":\"    at Pipe.<anonymous> (net.js:664:12)\"}]"
+}
+[08/05/20, 16:30:22:331] info: getLinuxDistro: getos 
+{
+  "res": {
+    "os": "linux",
+    "dist": "Arch Linux"
+  }
+}
+[08/05/20, 16:30:22:332] info: Store: READY 
+{
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "appVersion": "4.8.0",
+  "is64Bit": true,
+  "isGpuCompositionAvailable": true,
+  "isTitleBarHidden": false,
+  "platform": "linux",
+  "platformVersion": {
+    "major": 5,
+    "minor": 7,
+    "build": 12
+  },
+  "releaseChannel": "prod",
+  "developerMenuOverride": false,
+  "uuid": "5e4b9098-fe2d-551e-aa71-91a4c99dc213",
+  "sessionId": "NWU0YjkwOTgtZmUyZC01NTFlLWFhNzEtOTFhNGM5OWRjMjEzXzE1OTY2NDUwMjIyODQ=",
+  "distribution": "DDL",
+  "linux": {
+    "os": "Arch Linux",
+    "name": "Arch Linux ",
+    "release": "",
+    "codename": ""
+  }
+}
+[08/05/20, 16:30:22:337] info: initializeApplicationEpic: Welcome to Slack 4.8.0 x64 
+[08/05/20, 16:30:22:340] info: AutoLoginEpic: Checking for autologin. 
+[08/05/20, 16:30:22:342] info: getIsUpdateSupported: Updates are not supported 
+{
+  "version": "4.8.0",
+  "reasons": [
+    "using Linux"
+  ],
+  "distribution": "DDL",
+  "executable": "/usr/lib/slack"
+}
+[08/05/20, 16:30:22:395] info: Store: SET_ACCESSIBILITY_SUPPORT_ENABLED 
+[08/05/20, 16:30:22:396] info: Store: CREATE_WINDOW 
+{
+  "type": "main"
+}
+[08/05/20, 16:30:22:396] info: Store: UPDATE_SETTINGS 
+{
+  "isSignedIntoSlackOrg": false
+}
+[08/05/20, 16:30:22:399] info: Store: UPDATE_SETTINGS 
+{
+  "useHwAcceleration": true,
+  "launchOnStartup": false,
+  "PrefSSBFileDownloadPath": "/home/skaplan/Downloads",
+  "hasRunApp": true
+}
+[08/05/20, 16:30:22:402] info: System configuration information 
+{
+  "info": {
+    "total_memory_in_gb": 12,
+    "gpuFeatures": {
+      "2d_canvas": "disabled_software",
+      "flash_3d": "disabled_software",
+      "flash_stage3d": "disabled_software",
+      "flash_stage3d_baseline": "disabled_software",
+      "gpu_compositing": "disabled_software",
+      "multiple_raster_threads": "enabled_on",
+      "oop_rasterization": "disabled_off",
+      "opengl": "disabled_off",
+      "protected_video_decode": "disabled_off",
+      "rasterization": "disabled_software",
+      "skia_renderer": "enabled_on",
+      "video_decode": "disabled_software",
+      "vulkan": "disabled_off",
+      "webgl": "disabled_off",
+      "webgl2": "disabled_off"
+    },
+    "cpu_model": "Intel(R) Core(TM) i7-6500U CPU @ 2.50GHz",
+    "cpu_logical_core": 4,
+    "cpu_clock_speed": 2928,
+    "gpuDevice": [
+      {
+        "active": true,
+        "cudaComputeCapabilityMajor": 0,
+        "deviceId": 6422,
+        "vendorId": 32902
+      }
+    ],
+    "machine_model_name": "unknown",
+    "machine_model_version": "unknown"
+  }
+}
+[08/05/20, 16:30:22:404] info: Store: TOKEN_FILE_PROCESSED 
+[08/05/20, 16:30:22:405] info: AutoLoginEpic: Processing token file for autologin. 
+[08/05/20, 16:30:22:406] info: AutoLoginEpic: Completed autologin processing — successfully logged in 0 workspaces. 
+[08/05/20, 16:30:22:406] info: AutoLoginEpic: Setting default sign-in team to null 
+[08/05/20, 16:30:22:407] info: Store: AUTOLOGIN_TEAMS_COMPLETE 
+[08/05/20, 16:30:22:407] info: Store: UPDATE_SETTINGS 
+{
+  "defaultSigninTeam": null
+}
+[08/05/20, 16:30:22:431] info: MainWindowEpics: Setting main window ID 
+{
+  "id": 1
+}
+[08/05/20, 16:30:22:434] info: Store: WINDOW_CREATED 
+{
+  "type": "main",
+  "id": 1,
+  "frame": {
+    "isHtmlFullScreen": false,
+    "isFullScreen": false,
+    "isMinimized": false,
+    "isMaximized": false,
+    "isVisible": false,
+    "isFocused": false,
+    "bounds": {
+      "x": 560,
+      "y": 253,
+      "width": 800,
+      "height": 600
+    }
+  }
+}
+[08/05/20, 16:30:22:439] info: Watching for keyboard layout changes 
+[08/05/20, 16:30:22:447] info: Store: RECORD_PERFORMANCE_TIMING 
+{
+  "phase": 1,
+  "interval": 157
+}
+[08/05/20, 16:30:22:447] info: Store: UPDATE_SETTINGS 
+{
+  "keyboardLayout": "us,us"
+}
+[08/05/20, 16:30:22:449] info: registerLifeCycleEvents: Registering webContents:1 
+[08/05/20, 16:30:22:450] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 1,
+  "state": "unloaded"
+}
+[08/05/20, 16:30:22:611] info: Finished download of spellcheck dictionary 
+{
+  "code": "en-US"
+}
+[08/05/20, 16:30:22:613] info: Spellcheck dictionary initialized 
+{
+  "code": "en-US"
+}
+[08/05/20, 16:30:23:451] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "bounds": {
+      "x": 448,
+      "y": 170,
+      "width": 1024,
+      "height": 768
+    },
+    "isMaximized": false
+  },
+  "fromEvent": true
+}
+[08/05/20, 16:30:23:453] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "bounds": {
+      "x": 448,
+      "y": 170,
+      "width": 1024,
+      "height": 768
+    },
+    "isMaximized": false
+  },
+  "fromEvent": true
+}
+[08/05/20, 16:30:23:823] info: Store: UPDATE_SETTINGS 
+{
+  "userTheme": "light"
+}
+[08/05/20, 16:30:23:824] info: Store: UPDATE_SETTINGS 
+{
+  "systemThemeSyncEnabled": false
+}
+[08/05/20, 16:30:24:522] info: registerLifeCycleEvents: webContents:1 from 'unloaded' to 'loaded' took 2072 ms 
+[08/05/20, 16:30:24:522] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 1,
+  "state": "loaded"
+}
+[08/05/20, 16:30:24:525] info: initializeMainWindowEpic: Showing main window 
+{
+  "maximized": false,
+  "shouldHide": false,
+  "fullScreen": false
+}
+[08/05/20, 16:30:24:530] info: Store: RECORD_PERFORMANCE_TIMING 
+{
+  "phase": 2,
+  "interval": 2088
+}
+[08/05/20, 16:30:24:531] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isVisible": true
+  },
+  "fromEvent": true
+}
+[08/05/20, 16:30:24:532] info: Store: MAIN_WINDOW_SHOWN 
+[08/05/20, 16:30:24:537] info: Store: UPDATE_SETTINGS 
+{
+  "mainWindowSettings": {
+    "fullScreen": false,
+    "maximized": false,
+    "bounds": {
+      "x": 448,
+      "y": 170,
+      "width": 1024,
+      "height": 768
+    }
+  }
+}
+[08/05/20, 16:30:24:544] info: Store: CLEAR_NOTIFICATIONS 
+[08/05/20, 16:30:24:549] info: Store: SET_NETWORK_STATUS online
+[08/05/20, 16:30:24:551] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": true
+  },
+  "fromEvent": true
+}
+[08/05/20, 16:30:24:587] info: registerLifeCycleEvents: webContents:1 is type 'app' 
+[08/05/20, 16:30:24:587] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 1,
+  "type": "app",
+  "history": "[REDACTED]"
+}
+[08/05/20, 16:30:24:597] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isVisible": true,
+    "isFocused": true
+  },
+  "fromEvent": true
+}
+[08/05/20, 16:30:25:553] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "bounds": {
+      "x": 1012,
+      "y": 27,
+      "width": 881,
+      "height": 1026
+    },
+    "isMaximized": false
+  },
+  "fromEvent": true
+}
+[08/05/20, 16:30:25:556] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "bounds": {
+      "x": 1012,
+      "y": 27,
+      "width": 881,
+      "height": 1026
+    },
+    "isMaximized": false
+  },
+  "fromEvent": true
+}
+[08/05/20, 16:30:25:619] info: Store: UPDATE_SETTINGS 
+{
+  "mainWindowSettings": {
+    "fullScreen": false,
+    "maximized": false,
+    "bounds": {
+      "x": 1012,
+      "y": 27,
+      "width": 881,
+      "height": 1026
+    }
+  }
+}
+[08/05/20, 16:30:26:556] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": false
+  },
+  "fromEvent": true
+}
+[08/05/20, 16:30:26:981] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": true
+  },
+  "fromEvent": true
+}
+[08/05/20, 16:30:27:273] info: Store: persist/FLUSH 
